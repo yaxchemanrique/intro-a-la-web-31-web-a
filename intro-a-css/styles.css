@@ -20,3 +20,27 @@ a {
 	border: solid 4px black;
 	background: rgb(165, 225, 225);
 }
+
+/* Uso de selectores po ID */
+#list-item-especial {
+	background-color: rgb(115, 110, 150);
+	font-weight: bold;
+}
+
+.otra-clase {
+	background-color: rgb(225, 155, 155);
+}
+
+body .my-ul #list-item-especial {
+	color: white;
+}
+
+section .otra-clase {
+	color: rgb(96, 31, 31);
+	font-weight: bold;
+}
+
+#list-item-especial {
+	background-color: blueviolet;
+	color: rgb(168, 155, 251) !important;
+}
