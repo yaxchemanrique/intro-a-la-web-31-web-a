@@ -1,0 +1,75 @@
+section {
+	background-color: rgba(218, 165, 32, 0.344);
+	position: relative;
+}
+
+.item-1 {
+	/* position: absolute; */
+	top: 20px;
+	/* bottom: 50px; */
+	left: 10px;
+	/* right: 10px; */
+	/* shorthand: inset */
+}
+
+.item-2 {
+	position: relative;
+	top: 50px;
+	right: 20px;
+}
+
+.item-3 {
+	/* position: fixed; */
+	top: -20px;
+}
+
+.item-4 {
+	position: sticky;
+	top: 20px;
+}
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+body {
+	height: 200dvh;
+	padding-top: 20rem;
+}
+
+section {
+	margin-inline: auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1rem;
+	width: fit-content;
+}
+
+.item {
+	height: 5rem;
+	aspect-ratio: 1;
+	background-color: goldenrod;
+	border: 1px solid black;
+	padding: 1rem;
+}
