@@ -1,0 +1,15 @@
+body {
+	font-family: sans-serif;
+}
+
+.grid-item {
+	background-color: rgb(230, 159, 230);
+	color: rgb(154, 67, 154);
+	font-weight: bold;
+	border: 1px solid rgb(154, 67, 154);
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 50px 25% 10px;
+}
