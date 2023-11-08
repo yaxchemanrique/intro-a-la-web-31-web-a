@@ -1,0 +1,22 @@
+.main-div {
+    width: 1500px;
+    height: 1500px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/*  justify-content: eje primario;
+    align-items: eje secundario;
+    flex-wrap: salto de linea (si no hay espacio); */
+
+.single-div {
+    background-color: lightyellow;
+    padding: 3rem;
+    margin: 0 0 0 10px;
+}
+
+.single-div:nth-child(5){
+    flex-grow: 1;
+}
